@@ -18,7 +18,7 @@ def home():
 def predict():
     input_features = [float(x) for x in request.form.values()]
     final = [np.array(input_features)]
-    print(input_features)
+    #print(input_features)
     print(final)
 
     features_name = ['mean radius', 'mean texture', 'mean perimeter', 'mean area',
