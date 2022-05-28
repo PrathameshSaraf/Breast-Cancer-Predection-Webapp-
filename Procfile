@@ -1,1 +1,1 @@
-web:guicorn app:breast-cancer-webapp.wsgi
+web:guicorn app:app
